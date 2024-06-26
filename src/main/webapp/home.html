@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Travel Planner</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <header>
+        <h1>Travel Planner</h1>
+        <nav>
+            <ul>
+                <li><a href="#f">Home</a></li>
+                <li><a href="#popularDestinations">Explore Destinations</a></li>
+                <li><a href="#tips">Travel Tips</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h2>Your Next Adventure Awaits</h2>
+            <p>Plan your dream vacation with us</p>
+            <a href="Login.html" class="btn">Get Started</a>
+             <a href="Book.html" class="btn">Book Travel</a>
+              <a href="retrieve.html" class="btn">Show Ticket</a>
+        </section>
+
+        <section class="features" id="f">
+            <h2>Features</h2>
+            <div class="feature-item">
+                <img src="route.jpg" alt="Destination Image">
+                <h3>Explore Destinations</h3>
+                <p>Discover amazing places around the world</p>
+                <!-- Button to toggle destination list -->
+               
+            </div>
+            <div class="feature-item">
+                <img src="map.jpg" alt="Map Image">
+                <h3>Plan Your Route</h3>
+                <p>Create your travel itinerary with ease</p>
+            </div>
+            <div class="feature-item">
+                <img src="cash.jpg" alt="Budget Image">
+                <h3>Manage Your Budget</h3>
+                <p>Stay on track with your travel expenses</p>
+            </div>
+        </section>
+        
+        <!-- List of destinations -->
+        <section id="destinationList" class="hidden">
+            <h2>Destinations</h2>
+            <ul>
+                <li>New York City</li>
+                <li>Paris</li>
+                <li>Tokyo</li>
+                <!-- Add more destinations as needed -->
+            </ul>
+        </section>
+        
+       <!-- Popular Destinations -->
+<section id="popularDestinations">
+    <h2>Popular Destinations</h2>
+    <div class="madhav">
+    <div class="destination-item">
+        <img src="newyork.jpg" alt="New York City">
+        <h3>New York City</h3>
+        <p>Experience the hustle and bustle of the Big Apple</p>
+    </div>
+    <div class="destination-item">
+        <img src="newyork.jpg" alt="New York City">
+        <h3>New York City</h3>
+        <p>Experience the hustle and bustle of the Big Apple</p>
+    </div>
+    <div class="destination-item">
+        <img src="paris.jpg" alt="Paris">
+        <h3>Paris</h3>
+        <p>Explore the romantic streets of the City of Love</p>
+    </div>
+    <div class="destination-item">
+        <img src="tokyo.jpg" alt="Tokyo">
+        <h3>Tokyo</h3>
+        <p>Discover the blend of tradition and modernity in Japan's capital</p>
+    </div>
+    </div>
+</section>
+
+        
+        <!-- Travel Tips -->
+        <section id="tips">
+            <h2>Travel Tips</h2>
+            <p>Here are some useful travel tips to make your trip smoother:</p>
+            <ul>
+                <li>Pack light and smart</li>
+                <li>Plan your itinerary in advance</li>
+                <li>Keep your documents safe</li>
+                <li>Learn a few basic phrases of the local language</li>
+                <li>Stay hydrated and eat healthily</li>
+            </ul>
+        </section>
+        
+        <!-- Contact Form -->
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form>
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Travel Planner. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+	

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <servlet>
+  <servlet-name>Travel1</servlet-name>
+  <servlet-class>p2.Planning</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>Travel1</servlet-name>
+  <url-pattern>/signup</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  <servlet-name>Travel2</servlet-name>
+  <servlet-class>p2.validUser</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>Travel2</servlet-name>
+  <url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+   <servlet>
+  <servlet-name>Travel3</servlet-name>
+  <servlet-class>p2.Planning</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>Travel3</servlet-name>
+  <url-pattern>/first</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  <servlet-name>Travel4</servlet-name>
+  <servlet-class>p2.Planning</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>Travel4</servlet-name>
+  <url-pattern>/show</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  <servlet-name>Travel5</servlet-name>
+  <servlet-class>p2.Planning</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>Travel5</servlet-name>
+  <url-pattern>/Book</url-pattern>
+  </servlet-mapping>
+  
+</web-app>

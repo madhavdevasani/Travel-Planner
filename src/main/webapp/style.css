@@ -1,0 +1,193 @@
+/* Container styles for the travel details form */
+.travel-details-container {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: linear-gradient(90deg, #f3f3f3, #e0e0e0, #4CAF50); /* Gradient background */
+}
+
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center; /* Centering header content */
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center; /* Centering navigation links */
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    text-align: center; /* Centering main content */
+}
+
+.hero {
+    padding: 50px 0;
+}
+
+.features {
+    display: flex;
+    justify-content: center; /* Centering feature items */
+    margin-top: 50px;
+}
+
+.feature-item {
+    text-align: center;
+    margin: 0 20px; /* Adding some spacing between feature items */
+}
+.feature-item img{
+	height:100px;
+	width:150px;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Green button color */
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Additional styles for destinations list and form */
+#destinationList ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#destinationList ul li {
+    margin-bottom: 10px;
+}
+
+/* Styles for popular destinations section */
+#popularDestinations {
+    margin-top: 50px;
+    display: block;
+    height: 500px;
+    background-color:whitesmoke;
+    justify-content: center; /* Centering popular destinations */
+}
+
+.destination-item {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    width:250px;
+    margin:20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adding shadow effect */
+}
+.madhav{
+	display:flex;
+    justify-content: center;
+}
+.destination-item img {
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Styles for travel tips section */
+#tips {
+    margin-top: 50px;
+    text-align: left; /* Aligning travel tips content to the left */
+}
+
+#tips ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#tips ul li {
+    margin-bottom: 10px;
+}
+
+/* Styles for contact form section */
+#contact {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    background-color:#333; 
+    color:white;/* Centering contact form */
+    margin:0px;	
+}
+
+#contact form {
+    margin-top: 20px;
+    width: 50%; /* Adjusting contact form width */
+}
+
+#contact form div {
+    margin-bottom: 10px;
+}
+
+#contact form label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left; /* Aligning form labels to the left */
+}
+
+#contact form input[type="text"],
+#contact form input[type="email"],
+#contact form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact form textarea {
+    resize: vertical;
+}
+
+#contact form button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Green button color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contact form button[type="submit"]:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+.destination-item img {
+    width: 200px; /* Set width to 16px */
+    height: 200px; /* Set height to 16px */
+    object-fit: cover; /* Ensure the image covers the entire placeholder */
+    border-radius: 30px; /* Optional: Adds rounded corners to the images */
+}
+
+
